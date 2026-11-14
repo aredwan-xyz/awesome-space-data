@@ -1,0 +1,49 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 12 1 * *"   # 12:00 UTC on the 1st of each month
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: "Commit the refreshed link results"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild and check every link
+        run: python3 build.py --report link-report.md | tee build-output.txt
+
+      - name: Summary
+        run: |
+          cat link-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat build-output.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit refreshed results
+        if: github.event_name == 'schedule' || inputs.commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md resources.json resources.csv index.html link-status.json
+          git diff --cached --quiet || git commit -m "Monthly link check"
+          git push
+
+      - name: Open an issue if links stopped responding
+        if: github.event_name == 'schedule' || inputs.commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '^| Resource' link-report.md; then
+            gh issue create --title "Link check $(date +%Y-%m-%d): links not responding" --body-file link-report.md
+          fi

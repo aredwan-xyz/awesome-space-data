@@ -1,0 +1,311 @@
+# Space data resources. One per line, pipe-delimited:
+# domain | kind | access | terms | name | url | description
+# access: Open, Free key, Free account, Free tier, Paid, Varies, See site
+# terms: short note on reuse where known; blank = check the provider's terms page
+# Lines starting with # are ignored. Add a line, then run: python3 build.py
+
+# ---------- Start here ----------
+Start here|Account|Free account||Earthdata Login|https://urs.earthdata.nasa.gov/|Needed to download most NASA Earth-science files. Create it first.
+Start here|API|Free key||NASA Open APIs (api.nasa.gov)|https://api.nasa.gov/|One key for several JSON services: astronomy picture, near-Earth objects, space weather events, Earth imagery.
+Start here|Catalogue|Open||NASA Open Data Portal|https://data.nasa.gov/|Catalogue of NASA data sets across all directorates.
+Start here|Catalogue|Open||NASA Earthdata|https://www.earthdata.nasa.gov/|Front door to all NASA Earth-science data, tools and tutorials.
+Start here|Archive|Open||Planetary Data System|https://pds.nasa.gov/|Master archive for Moon, Mars and planetary mission data.
+Start here|Search|Open||NASA Science Discovery Engine|https://sciencediscoveryengine.nasa.gov/|One search box across NASA science data, documentation and code.
+Start here|Catalogue|Open||CSA Open Data portal|https://donnees-data.asc-csa.gc.ca/|Canadian Space Agency data sets, including RADARSAT.
+
+# ---------- Earth observation ----------
+Earth observation|Catalogue|Free account||Earthdata Search|https://search.earthdata.nasa.gov/|Find and download any NASA Earth-science data set.
+Earth observation|API|Open||Common Metadata Repository (CMR) API|https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html|Search NASA's Earth-data catalogue from code.
+Earth observation|Library|Open||earthaccess (Python)|https://earthaccess.readthedocs.io/|Search and download NASA Earth data in a few lines of Python.
+Earth observation|Map tiles|Open||GIBS imagery tiles|https://nasa-gibs.github.io/gibs-api-docs/|Ready-made map tiles of hundreds of NASA Earth layers; drops straight into a web map.
+Earth observation|Viewer|Open||NASA Worldview|https://worldview.earthdata.nasa.gov/|Browse the layers GIBS serves; find a layer and date before coding.
+Earth observation|Tool|Free account||AppEEARS|https://appeears.earthdatacloud.nasa.gov/|Extract a time series for a point or area without handling whole files.
+Earth observation|Tool|Free account||Giovanni|https://giovanni.gsfc.nasa.gov/|Plot and average Earth-science variables in the browser.
+Earth observation|API|Free key||FIRMS active-fire API|https://firms.modaps.eosdis.nasa.gov/api/|Fire detections as CSV by area and date range.
+Earth observation|API|Open||NASA POWER API|https://power.larc.nasa.gov/docs/services/api/|Daily weather and solar values for any point on Earth, back decades. Easy JSON.
+Earth observation|API|Open||EONET natural events|https://eonet.gsfc.nasa.gov/docs/v3|Live list of wildfires, storms, volcanoes and other events with coordinates.
+Earth observation|Archive|Free account||LP DAAC (land data)|https://lpdaac.usgs.gov/|NASA's land data centre: vegetation, surface temperature, elevation.
+Earth observation|Archive|Free account||Alaska Satellite Facility (radar)|https://asf.alaska.edu/|NASA's radar data centre: Sentinel-1, NISAR and older radar missions.
+Earth observation|Archive|Free account||National Snow and Ice Data Center|https://nsidc.org/|Sea ice, glaciers, snow cover and frozen ground.
+Earth observation|Archive|Free account||PO.DAAC (oceans)|https://podaac.jpl.nasa.gov/|Sea level, ocean temperature, winds and surface water.
+Earth observation|Archive|Free account||GES DISC (atmosphere and water)|https://disc.gsfc.nasa.gov/|Rainfall, atmospheric composition and land-surface models.
+Earth observation|Catalogue|Free account|Landsat is public domain|USGS EarthExplorer|https://earthexplorer.usgs.gov/|Landsat and other US imagery back to 1972.
+Earth observation|Catalogue|Free account|Free and open with attribution|Copernicus Data Space|https://dataspace.copernicus.eu/|European Sentinel satellite data: radar, optical, atmosphere.
+Earth observation|Viewer|Free account|Free and open with attribution|Copernicus Browser|https://browser.dataspace.copernicus.eu/|Browse and download Sentinel imagery.
+Earth observation|Archive|Free account||Copernicus Climate Data Store|https://cds.climate.copernicus.eu/|Climate reanalysis (ERA5) and projections.
+Earth observation|Catalogue|Open||Microsoft Planetary Computer|https://planetarycomputer.microsoft.com/|Large open catalogue of Earth data with a standard search API.
+Earth observation|API|Open||Earth Search (Element 84)|https://earth-search.aws.element84.com/v1|Open search API for cloud-hosted Sentinel-2 and Landsat scenes.
+Earth observation|Platform|Free tier|Free for non-commercial use; commercial use is paid|Google Earth Engine|https://earthengine.google.com/|Planet-scale analysis in the cloud without downloading files.
+Earth observation|Catalogue|Open||OpenTopography|https://opentopography.org/|Global and high-resolution elevation data.
+Earth observation|Archive|Open||NOAA National Centers for Environmental Information|https://www.ncei.noaa.gov/|Long-term weather and climate records.
+Earth observation|API|Free tier|Free for non-commercial use|Open-Meteo|https://open-meteo.com/|Weather forecast and history API with no key.
+Earth observation|Data|Open||ECMWF open data|https://www.ecmwf.int/en/forecasts/datasets/open-data|Free subset of the European weather forecast model.
+Earth observation|Data|Open|Open licence with attribution|OpenStreetMap|https://www.openstreetmap.org/|Roads, buildings and places for context layers.
+Earth observation|Data|Open|Public domain|Natural Earth|https://www.naturalearthdata.com/|Clean country, coastline and physical base maps.
+Earth observation|Standard|Open||STAC (SpatioTemporal Asset Catalog)|https://stacspec.org/|The standard most modern imagery catalogues use; learn it once, query many.
+Earth observation|Catalogue|Open||STAC Index|https://stacindex.org/|Directory of public imagery catalogues and tools that speak STAC.
+Earth observation|Standard|Open||Cloud Optimized GeoTIFF|https://cogeo.org/|Image format that lets a web app read just the part it needs.
+Earth observation|Catalogue|Open||Source Cooperative|https://source.coop/|Open data-sharing site with many training-ready Earth data sets.
+Earth observation|Model|Open||NASA and IBM Prithvi geospatial models|https://huggingface.co/ibm-nasa-geospatial|Open AI models pre-trained on satellite imagery.
+Earth observation|Library|Open||TorchGeo|https://torchgeo.readthedocs.io/|Data sets and models for machine learning on satellite imagery.
+Earth observation|Library|Open||GDAL|https://gdal.org/|The base toolkit for converting and reprojecting map data.
+Earth observation|Library|Open||rasterio|https://rasterio.readthedocs.io/|Read and write satellite images in Python.
+Earth observation|Library|Open||GeoPandas|https://geopandas.org/|Shapes and boundaries in Python.
+Earth observation|Library|Open||xarray|https://docs.xarray.dev/|Python for gridded science data files.
+Earth observation|Library|Open||pystac-client|https://pystac-client.readthedocs.io/|Search STAC imagery catalogues from Python.
+Earth observation|Library|Open||leafmap|https://leafmap.org/|Interactive mapping and analysis in a notebook with little code.
+Earth observation|Library|Open||TiTiler|https://developmentseed.org/titiler/|Turn cloud-hosted images into map tiles on the fly.
+Earth observation|Tool|Open||QGIS|https://qgis.org/|Desktop tool to open, inspect and convert map data before coding.
+Earth observation|Learning|Open||NASA ARSET training|https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset|Free courses on using satellite data for fires, water, farming and disasters.
+Earth observation|Data|Open|Check each release; often non-commercial|Maxar Open Data Program|https://www.maxar.com/open-data|High-resolution imagery released for major disasters.
+Earth observation|Data|Open|Check licence per data set|Umbra Open Data|https://umbra.space/open-data/|Free commercial radar imagery samples.
+Earth observation|Data|Open|Check licence per data set|Wyvern Open Data|https://wyvern.space/open-data/|Free hyperspectral imagery from a Canadian company.
+Earth observation|Marketplace|Paid||SkyWatch EarthCache|https://skywatch.com/|Buy commercial imagery from many providers through one API (Canadian).
+
+# ---------- Canada ----------
+Canada|Catalogue|Free account||EODMS (Natural Resources Canada)|https://www.eodms-sgdot.nrcan-rncan.gc.ca/|Canada's Earth-observation archive, including RADARSAT.
+Canada|Catalogue|Open|Open Government Licence – Canada|Open Government Portal|https://open.canada.ca/|Federal open data across all departments.
+Canada|Catalogue|Open||GEO.ca|https://geo.ca/|Canada's geospatial data hub.
+Canada|Data|Open||Canadian Wildland Fire Information System|https://cwfis.cfs.nrcan.gc.ca/|Fire weather, hotspots and burned-area maps.
+Canada|API|Open||MSC GeoMet (Environment Canada weather)|https://eccc-msc.github.io/open-data/msc-geomet/readme_en/|Canadian weather and climate layers as map services.
+Canada|Data|Open||Space Weather Canada|https://www.spaceweather.gc.ca/|Canadian geomagnetic forecasts and aurora conditions.
+Canada|Archive|Open||Canadian Astronomy Data Centre|https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/|Canadian telescope archives, including NEOSSat.
+Canada|Code|Open||CSA on GitHub|https://github.com/asc-csa|Canadian Space Agency tutorials and notebooks.
+
+# ---------- Moon ----------
+Moon|Viewer|Open||LROC Quickmap|https://quickmap.lroc.asu.edu/|Interactive Moon map with imagery, terrain and many science layers.
+Moon|Viewer|Open||Moon Trek|https://trek.nasa.gov/moon/|3D Moon viewer whose layers can also be used as map tiles.
+Moon|Data|Open||LROC image archive|https://www.lroc.asu.edu/|Lunar Reconnaissance Orbiter Camera images and mosaics.
+Moon|Data|Open||LOLA lunar topography (PDS Geosciences)|https://pds-geosciences.wustl.edu/missions/lro/lola.htm|Lunar elevation models; the terrain source for horizon and slope work.
+Moon|Data|Open||Diviner lunar temperatures|https://pds-geosciences.wustl.edu/missions/lro/diviner.htm|Surface temperature maps of the Moon.
+Moon|Data|Open||Planetary Geodesy Data Archive|https://pgda.gsfc.nasa.gov/|Ready-made lunar products including south-pole terrain and illumination maps.
+Moon|Media|Open||CGI Moon Kit|https://svs.gsfc.nasa.gov/4720/|Colour and elevation maps of the Moon made for 3D rendering.
+Moon|Reference|Open||Lunar and Planetary Institute|https://www.lpi.usra.edu/|Lunar atlases, sample catalogues and south-pole references.
+Moon|Archive|Open||Kaguya (SELENE) data archive|https://darts.isas.jaxa.jp/planet/pdap/selene/|Japanese lunar orbiter data, including terrain.
+
+# ---------- Mars ----------
+Mars|Viewer|Open||Mars Trek|https://trek.nasa.gov/mars/|3D Mars viewer whose layers can also be used as map tiles.
+Mars|Data|Open||HiRISE|https://www.uahirise.org/|Highest-resolution images and terrain models of Mars.
+Mars|Data|Open||Global CTX mosaic of Mars|https://murray-lab.caltech.edu/CTX/|Seamless medium-resolution image map of all of Mars.
+Mars|Tool|Free account||JMARS|https://jmars.asu.edu/|Desktop mapping tool used by Mars mission teams.
+Mars|Archive|Open||PDS Atmospheres Node|https://pds-atmospheres.nmsu.edu/|Mars weather and atmosphere records from landers and rovers.
+Mars|Archive|Open||PDS Cartography and Imaging Sciences Node|https://pds-imaging.jpl.nasa.gov/|Raw and processed images from planetary missions.
+Mars|Model|Open||Mars Climate Database|http://www-mars.lmd.jussieu.fr/|Modelled Mars weather for any place and season.
+Mars|Media|Open||Perseverance raw images|https://mars.nasa.gov/mars2020/multimedia/raw-images/|Every image the rover sends back.
+
+# ---------- Solar system and ephemeris ----------
+Solar system and ephemeris|API|Open||JPL Horizons API|https://ssd-api.jpl.nasa.gov/doc/horizons.html|Positions of the Sun, planets and spacecraft as seen from any body or surface point.
+Solar system and ephemeris|Tool|Open||JPL Horizons System|https://ssd.jpl.nasa.gov/horizons/|The same service as a web form; good for checking a result by hand.
+Solar system and ephemeris|API|Open||JPL Solar System Dynamics APIs|https://ssd-api.jpl.nasa.gov/|Small-body database, close approaches, fireballs and related services.
+Solar system and ephemeris|Data|Open||CNEOS near-Earth objects|https://cneos.jpl.nasa.gov/|Asteroid close approaches and impact risk.
+Solar system and ephemeris|Toolkit|Open||NAIF SPICE toolkit|https://naif.jpl.nasa.gov/naif/|NASA's geometry system for spacecraft and planetary positions.
+Solar system and ephemeris|Library|Open||SpiceyPy|https://spiceypy.readthedocs.io/|Use SPICE from Python.
+Solar system and ephemeris|Library|Open||Skyfield|https://rhodesmill.org/skyfield/|Simple, accurate positions of planets and satellites in Python.
+Solar system and ephemeris|Library|Open||Astronomy Engine|https://github.com/cosinekitty/astronomy|Sun, Moon and planet positions in JavaScript, Python, C and C#.
+Solar system and ephemeris|Data|Open||USGS Astrogeology|https://astrogeology.usgs.gov/|Global maps and mosaics for the Moon, Mars and other bodies in standard map formats.
+Solar system and ephemeris|Archive|Open||ESA Planetary Science Archive|https://psa.esa.int/|Data from European planetary missions.
+Solar system and ephemeris|Data|Open||Minor Planet Center|https://www.minorplanetcenter.net/|Official orbits for asteroids and comets.
+Solar system and ephemeris|Viewer|Open||NASA Eyes|https://eyes.nasa.gov/|Real-time 3D views of spacecraft, planets and asteroids; a reference for interaction design.
+Solar system and ephemeris|Tool|Open||NASA Trajectory Browser|https://trajbrowser.arc.nasa.gov/|Find launch windows and trajectories to planets and asteroids.
+
+# ---------- Astrophysics ----------
+Astrophysics|Archive|Open||MAST (Hubble, Webb, TESS, Kepler)|https://archive.stsci.edu/|Space-telescope images and light curves.
+Astrophysics|Archive|Open||NASA/IPAC Infrared Science Archive|https://irsa.ipac.caltech.edu/|Infrared sky surveys including SPHEREx and WISE.
+Astrophysics|Archive|Open||HEASARC|https://heasarc.gsfc.nasa.gov/|X-ray and gamma-ray mission data.
+Astrophysics|Archive|Open||NASA Exoplanet Archive|https://exoplanetarchive.ipac.caltech.edu/|Confirmed planets and their properties, with an API.
+Astrophysics|Archive|Open||Gaia Archive|https://gea.esac.esa.int/archive/|Positions and motions of nearly two billion stars.
+Astrophysics|Viewer|Open||ESASky|https://sky.esa.int/|Browse the whole sky across many telescopes.
+Astrophysics|Library|Open||Aladin Lite|https://aladin.cds.unistra.fr/AladinLite/|Embeddable sky map for a web page.
+Astrophysics|Tool|Open||SkyView|https://skyview.gsfc.nasa.gov/|Cut out an image of any sky position from many surveys.
+Astrophysics|Database|Open||SIMBAD|https://simbad.cds.unistra.fr/|Look up any named star or galaxy.
+Astrophysics|Search|Open||NASA Astrophysics Data System|https://ui.adsabs.harvard.edu/|Search the astronomy and physics literature.
+Astrophysics|Library|Open||Astropy|https://www.astropy.org/|Python astronomy: coordinates, time systems, image files.
+Astrophysics|Library|Open||astroquery|https://astroquery.readthedocs.io/|Query astronomy archives from Python.
+Astrophysics|Platform|Open||Zooniverse|https://www.zooniverse.org/|Build or join citizen-science projects.
+
+# ---------- Sun and space weather ----------
+Sun and space weather|API|Free key||DONKI space weather events|https://ccmc.gsfc.nasa.gov/tools/DONKI/|Solar flares, eruptions and storms as a searchable record.
+Sun and space weather|Data|Open||NOAA Space Weather Prediction Center|https://www.swpc.noaa.gov/products-and-data|Forecasts, alerts and aurora maps.
+Sun and space weather|API|Open||NOAA space weather JSON feeds|https://services.swpc.noaa.gov/|Live solar wind, aurora and geomagnetic data as plain JSON.
+Sun and space weather|Data|Open||Solar Dynamics Observatory|https://sdo.gsfc.nasa.gov/data/|Near-live images of the Sun in many wavelengths.
+Sun and space weather|Viewer|Open||Helioviewer|https://helioviewer.org/|Browse and make movies of solar images; has an API.
+Sun and space weather|Archive|Open||CDAWeb|https://cdaweb.gsfc.nasa.gov/|Space-physics measurements from dozens of spacecraft.
+Sun and space weather|Library|Open||SunPy|https://sunpy.org/|Python for solar data.
+Sun and space weather|Models|Open||Community Coordinated Modeling Center|https://ccmc.gsfc.nasa.gov/|Space weather models and tools.
+
+# ---------- Human spaceflight and microgravity ----------
+Human spaceflight and microgravity|Archive|Open||Open Science Data Repository|https://osdr.nasa.gov/bio/repo/|Space biology and astronaut-relevant experiment data, with an API.
+Human spaceflight and microgravity|Archive|Open||Physical Sciences Informatics|https://psi.nasa.gov/|Microgravity experiments: combustion, fluids, materials.
+Human spaceflight and microgravity|Reference|Open||NASA Human Research Program: hazards and risks|https://www.nasa.gov/hrp/hazards/|The five hazards of spaceflight and the risks NASA tracks.
+Human spaceflight and microgravity|Tool|Open||Spot the Station|https://www.nasa.gov/spot-the-station/|When the space station passes over a location.
+Human spaceflight and microgravity|Archive|Open||NASA Life Sciences Portal|https://nlsp.nasa.gov/|Astronaut and life-science study records.
+
+# ---------- Orbits and satellites ----------
+Orbits and satellites|Data|Open||CelesTrak|https://celestrak.org/|Current orbit data for satellites and debris.
+Orbits and satellites|Data|Free account|Redistribution is restricted|Space-Track|https://www.space-track.org/|The US government's official satellite catalogue.
+Orbits and satellites|API|Free tier||Launch Library 2|https://thespacedevs.com/llapi|Launch schedule, rockets and events as an API.
+Orbits and satellites|Network|Open||SatNOGS|https://satnogs.org/|Open network of ground stations and a database of satellite transmitters.
+Orbits and satellites|Database|Open||General Catalog of Artificial Space Objects|https://planet4589.org/space/gcat/|Every object ever launched, maintained by Jonathan McDowell.
+Orbits and satellites|Database|Open||Gunter's Space Page|https://space.skyrocket.de/|Reference pages for nearly every satellite and rocket.
+Orbits and satellites|Database|Open||eoPortal|https://www.eoportal.org/|Detailed write-ups of Earth-observation missions.
+Orbits and satellites|Database|Open||OSCAR (World Meteorological Organization)|https://space.oscar.wmo.int/|Satellites and instruments by what they measure.
+Orbits and satellites|Reference|Open||NASA Orbital Debris Program Office|https://orbitaldebris.jsc.nasa.gov/|Debris environment reports and models.
+Orbits and satellites|Library|Open||satellite.js|https://github.com/shashwatak/satellite-js|Compute satellite positions in the browser.
+Orbits and satellites|Library|Open||sgp4 (Python)|https://pypi.org/project/sgp4/|Compute satellite positions in Python.
+Orbits and satellites|Viewer|Open||KeepTrack|https://www.keeptrack.space/|Open-source 3D satellite tracker.
+Orbits and satellites|Database|Open||NewSpace Index|https://www.newspace.im/|Tracker of satellite constellations and small-satellite companies.
+
+# ---------- Mission engineering and software ----------
+Mission engineering and software|Framework|Open||Open MCT|https://nasa.github.io/openmct/|NASA's web framework for mission-control telemetry displays.
+Mission engineering and software|Framework|Open||Yamcs|https://yamcs.org/|Open-source mission control system.
+Mission engineering and software|Framework|Open||OpenC3 COSMOS|https://openc3.com/|Open-source command and telemetry system for testing and operations.
+Mission engineering and software|Framework|Open||F Prime|https://fprime.jpl.nasa.gov/|JPL's flight software framework for small spacecraft.
+Mission engineering and software|Framework|Open||core Flight System (cFS)|https://github.com/nasa/cFS|NASA's reusable flight software.
+Mission engineering and software|Tool|Open||General Mission Analysis Tool (GMAT)|https://software.nasa.gov/software/GSC-19468-1|Design and optimise spacecraft trajectories.
+Mission engineering and software|Library|Open||Orekit|https://www.orekit.org/|Space flight dynamics library.
+Mission engineering and software|Code|Open||NASA on GitHub|https://github.com/nasa|NASA's open-source code.
+Mission engineering and software|Code|Open||code.nasa.gov|https://code.nasa.gov/|Directory of NASA open-source projects.
+Mission engineering and software|Code|Varies||NASA Software Catalog|https://software.nasa.gov/|Released NASA software, some downloadable at once, some on request.
+Mission engineering and software|Reference|Open||NASA Technical Reports Server|https://ntrs.nasa.gov/|Decades of NASA engineering and science reports.
+Mission engineering and software|Reference|Open||NASA Systems Engineering Handbook|https://www.nasa.gov/reference/systems-engineering-handbook/|How NASA runs a project from concept to operations.
+Mission engineering and software|Reference|Open||NASA Technical Standards|https://standards.nasa.gov/|Engineering standards NASA projects follow.
+Mission engineering and software|Reference|Open||State-of-the-Art Small Spacecraft Technology|https://www.nasa.gov/smallsat-institute/sst-soa/|Yearly survey of what small-satellite hardware exists.
+Mission engineering and software|Reference|Open||NASA Lessons Learned|https://llis.nasa.gov/|What went wrong on past projects and why.
+Mission engineering and software|Standard|Open||CCSDS standards|https://public.ccsds.org/|The data and communication standards space agencies share.
+Mission engineering and software|Community|Open||Libre Space Foundation|https://libre.space/|Open-source space hardware and software projects.
+
+# ---------- Media, 3D and visualization ----------
+Media, 3D and visualization|Media|Open|Generally free to use; no NASA logo or implied endorsement|NASA Image and Video Library|https://images.nasa.gov/|Photos, video and audio, with a JSON API.
+Media, 3D and visualization|Media|Open||Scientific Visualization Studio|https://svs.gsfc.nasa.gov/|Thousands of finished NASA visualizations with downloadable frames.
+Media, 3D and visualization|3D models|Open||NASA 3D Resources|https://science.nasa.gov/3d-resources/|Spacecraft, landers and terrain models for 3D, AR and games.
+Media, 3D and visualization|Media|Open||Blue Marble|https://visibleearth.nasa.gov/collection/1484/blue-marble|Cloud-free whole-Earth images for globes.
+Media, 3D and visualization|Media|Open||Deep Star Maps|https://svs.gsfc.nasa.gov/4851/|Star-field backgrounds for 3D scenes.
+Media, 3D and visualization|Media|Open|Attribution required|Solar System Scope textures|https://www.solarsystemscope.com/textures/|Planet and moon surface textures.
+Media, 3D and visualization|Reference|Open||NASA media usage guidelines|https://www.nasa.gov/nasa-brand-center/images-and-media/|What you may and may not do with NASA images and the NASA name.
+Media, 3D and visualization|Media|Open|Check licence per image|ESA images|https://www.esa.int/ESA_Multimedia/Images|European Space Agency photo library.
+Media, 3D and visualization|Media|Open||Webb Space Telescope images|https://webbtelescope.org/|Full-resolution Webb images.
+
+# ---------- Web and data libraries ----------
+Web and data libraries|Library|Open||Leaflet|https://leafletjs.com/|The simplest way to put a map with layers on a page.
+Web and data libraries|Library|Open||MapLibre GL JS|https://maplibre.org/|Fast web maps with custom tile layers.
+Web and data libraries|Library|Open||OpenLayers|https://openlayers.org/|Web maps with strong support for unusual projections such as polar views.
+Web and data libraries|Library|Open||proj4js|http://proj4js.org/|Convert coordinates between map projections in the browser.
+Web and data libraries|Library|Open||CesiumJS|https://cesium.com/platform/cesiumjs/|3D globes and terrain in the browser.
+Web and data libraries|Library|Open||three.js|https://threejs.org/|3D scenes in the browser; the base for most web 3D and AR.
+Web and data libraries|Library|Open||A-Frame|https://aframe.io/|VR and AR scenes in plain HTML.
+Web and data libraries|Library|Open||deck.gl|https://deck.gl/|Large point and grid data sets on a map.
+Web and data libraries|Library|Open||D3|https://d3js.org/|Custom charts, calendars and timelines.
+Web and data libraries|Library|Open||Tone.js|https://tonejs.github.io/|Synthesised sound in the browser; the base for turning data into audio.
+
+# ---------- Ventures and industry ----------
+Ventures and industry|Funding|Varies||CSA funding opportunities|https://www.asc-csa.gc.ca/eng/funding-programs/funding-opportunities/|Open calls from the Canadian Space Agency.
+Ventures and industry|Funding|Varies||CSA Space Technology Development Program|https://www.asc-csa.gc.ca/eng/funding-programs/programs/stdp/|Contracts and contributions for Canadian space technology.
+Ventures and industry|Funding|Varies||CSA smartEarth|https://www.asc-csa.gc.ca/eng/funding-programs/programs/smartearth/|Funding for applications built on satellite data.
+Ventures and industry|Licensing|Varies||NASA Technology Transfer|https://technology.nasa.gov/|NASA patents and software available to license.
+Ventures and industry|Reference|Open||NASA Spinoff|https://spinoff.nasa.gov/|How NASA technology became commercial products.
+Ventures and industry|Funding|Varies|US small businesses only|NASA SBIR and STTR|https://sbir.nasa.gov/|NASA's small-business research contracts.
+Ventures and industry|Funding|Varies||ESA Commercialisation Gateway|https://commercialisation.esa.int/|European incubators, funding and partnerships.
+Ventures and industry|Programme|Varies||Creative Destruction Lab: Space|https://creativedestructionlab.com/streams/space/|Canadian-founded mentoring programme for space start-ups.
+Ventures and industry|Association|Open||Space Canada|https://space-canada.ca/|Canada's space industry association and member list.
+Ventures and industry|News|Open||SpaceQ|https://spaceq.ca/|Canadian space industry news.
+Ventures and industry|News|Open||SpaceNews|https://spacenews.com/|Global space industry news.
+Ventures and industry|News|Open||Payload|https://payloadspace.com/|Business-focused space news and data.
+Ventures and industry|Reports|Open||BryceTech reports|https://brycetech.com/reports|Free launch, satellite and investment statistics.
+Ventures and industry|Reports|Open||Space Capital|https://www.spacecapital.com/|Quarterly space investment reports.
+Ventures and industry|Database|Open||Factories in Space|https://www.factoriesinspace.com/|Directory of in-space manufacturing and commercial station companies.
+Ventures and industry|Regulation|Open||Controlled Goods Program (Canada)|https://www.tpsgc-pwgsc.gc.ca/pmc-cgp/index-eng.html|Registration required to handle controlled space and defence technology in Canada.
+Ventures and industry|Regulation|Open||UN Office for Outer Space Affairs|https://www.unoosa.org/|Space treaties, registration of objects and national space laws.
+
+# ---------- Earth observation: more data sets ----------
+Earth observation|Tool|Open||FIRMS fire map|https://www.earthdata.nasa.gov/data/tools/firms|Near-real-time map and downloads of active fires worldwide.
+Earth observation|Catalogue|Free account||ASF Vertex radar search|https://search.asf.alaska.edu/|Map-based search for radar scenes from Sentinel-1, NISAR and earlier missions.
+Earth observation|Data|Free account||GPM and IMERG rainfall|https://gpm.nasa.gov/data|Global rainfall estimates every half hour.
+Earth observation|Data|Free account||SMAP soil moisture|https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap|Global surface soil moisture every two to three days.
+Earth observation|Data|Free account||SRTM elevation|https://www.earthdata.nasa.gov/data/instruments/srtm|Near-global elevation model from the Space Shuttle radar mission.
+Earth observation|Data|See site||ECOSTRESS|https://ecostress.jpl.nasa.gov/data|Land-surface temperature and plant water use measured from the space station.
+Earth observation|Data|See site||GEDI forest structure|https://gedi.umd.edu/data|Laser measurements of forest height and biomass from the space station.
+Earth observation|Data|Free account||ERA5 reanalysis|https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview|Hourly global weather reconstructed back to 1940.
+Earth observation|Data|Open||NOAA Climate Data Online|https://www.ncei.noaa.gov/cdo-web/|Historical weather-station records worldwide.
+Earth observation|Tool|Open||Hydrology time-series tool|https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series|Make a time series of rainfall, soil moisture or runoff for one location.
+Earth observation|Tool|Open||KNMI Climate Explorer|https://climexp.knmi.nl/|Web tool for climate time series, trends and correlations.
+Earth observation|Catalogue|Open||ESA Open Science Catalog|https://opensciencedata.esa.int/|European catalogue of open geoscience data sets, products and workflows.
+Earth observation|Catalogue|Free account||JAXA G-Portal|https://gportal.jaxa.jp/gpr/index/index|Japanese Earth-observation products: rain, snow, vegetation, ocean.
+Earth observation|Catalogue|Free account||SAOCOM catalogue (Argentina)|https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html|Argentine L-band radar imagery; registration required.
+Earth observation|Learning|Open||Remote sensing basics|https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing|Plain introduction to how satellite instruments and resolutions work.
+Earth observation|Learning|Open||Radar (SAR) basics|https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar|Plain introduction to imaging radar.
+Earth observation|Learning|Open||NISAR data user guide|https://nisar-docs.asf.alaska.edu/|How to find, open and use data from the NASA and ISRO radar mission.
+Earth observation|Learning|Open||NISAR application briefs|https://nisar.jpl.nasa.gov/applications/societal-benefit/|Two-page explainers on what radar can measure, by application.
+Earth observation|Learning|Open||NISAR story maps|https://nisar.jpl.nasa.gov/applications/arcgis-storymaps/|Worked radar examples for floods, fires, subsidence and glaciers.
+
+# ---------- Earth observation: farming, land and water ----------
+Earth observation|Data|Open||FAO Global Agro-Ecological Zones|https://gaez.fao.org|Global maps of crop suitability, soil limits and water availability.
+Earth observation|Data|Open||CoCoRaHS|https://www.cocorahs.org/Maps|Volunteer-measured daily rain and snow across North America.
+Earth observation|Data|Open||CropScape (US Cropland Data Layer)|https://nassgeodata.gmu.edu/CropScape/|Yearly 30-metre map of which crop grows where in the United States.
+Earth observation|Data|Open||OpenET|https://openetdata.org|Field-scale estimates of crop water use for the western United States.
+Earth observation|Data|Open||PRISM climate data|https://prism.oregonstate.edu|High-resolution US temperature and rainfall grids.
+Earth observation|Catalogue|Open||USDA Ag Data Commons|https://www.nal.usda.gov/services/agdatacommons|Open US agricultural research data sets.
+Earth observation|Data|Open||USDA NASS Quick Stats|https://quickstats.nass.usda.gov|US crop yields, acreage and production by county and state.
+Earth observation|Tool|Open||Web Soil Survey|https://websoilsurvey.nrcs.usda.gov/app/|Official US soil maps and properties for any area.
+Earth observation|Data|Open||NAIP aerial imagery|https://naip-usdaonline.hub.arcgis.com/|One-metre aerial photos of US farmland in the growing season.
+Earth observation|Data|Open||LANDFIRE|https://www.landfire.gov|US vegetation and wildfire-fuel maps.
+Earth observation|Data|Open||US National Land Cover Database|https://www.usgs.gov/centers/eros/science/national-land-cover-database|30-metre US land cover across several decades.
+Earth observation|Data|Open||USGS water data|https://waterdata.usgs.gov/nwis|US streamflow, groundwater and water-quality records.
+
+# ---------- Canada: data sets ----------
+Canada|Data|See site|Access rules vary by user type|RADARSAT Constellation Mission data|https://donnees-data.asc-csa.gc.ca/en/dataset/rcm|Canada's three-satellite radar constellation.
+Canada|Data|Open||RADARSAT-1 data|https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1|Archive of Canada's first radar satellite, 1995 to 2013.
+Canada|Code|Open||CSA radar Python tutorial|https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial|Step-by-step notebook for working with radar imagery in Python and QGIS.
+Canada|Data|Open||NEOSSat data|https://data.asc-csa.gc.ca/dataset/neossat|Images from Canada's asteroid- and debris-tracking space telescope.
+Canada|Code|Open||NEOSSat Python tutorial|https://github.com/asc-csa/NEOSSAT_Tutorial|Notebook for opening and plotting NEOSSat images.
+
+# ---------- Moon, Mars, astrophysics: more ----------
+Moon|Archive|Open||LRO data at PDS Geosciences|https://pds-geosciences.wustl.edu/missions/lro/|All Lunar Reconnaissance Orbiter instrument archives in one place.
+Mars|Viewer|Open||USGS interactive geologic maps of Mars|https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars|Standardised geologic maps of Mars in a web viewer.
+Astrophysics|Data|Open||SPHEREx data at IRSA|https://irsa.ipac.caltech.edu/Missions/spherex.html|All-sky infrared survey in 102 colours, repeated every six months.
+Astrophysics|Learning|Open||SPHEREx tutorial notebooks|https://caltech-ipac.github.io/irsa-tutorials/spherex/|Worked Python examples for fetching and viewing SPHEREx images.
+
+# ---------- Human spaceflight: more ----------
+Human spaceflight and microgravity|API|Open||RadLab radiation dosimetry|https://visualization.osdr.nasa.gov/radlab/gui/data-api/|Radiation doses measured aboard the space station, with an API.
+Human spaceflight and microgravity|Reference|Open||Human spaceflight risks|https://www.nasa.gov/hrp/risks/|The individual health risks NASA tracks for long missions.
+Human spaceflight and microgravity|Reference|Open||Ongoing Human Research Program studies|https://www.nasa.gov/hrp/ongoing-hrp-research/|Current studies of how spaceflight affects the body.
+Human spaceflight and microgravity|Reference|Open||NASA combustion science programme|https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/|Summaries of the microgravity fire investigations behind the data.
+Human spaceflight and microgravity|Learning|Open||Researcher's guide to ISS combustion science|https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/|Overview of fire experiments on the space station and why flames behave differently there.
+
+# ---------- Mission engineering: more ----------
+Mission engineering and software|Reference|Open||How NASA designs science missions|https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf|Short overview of a mission's path from idea to operations.
+Mission engineering and software|Reference|Open||Concept Maturity Levels|https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299|JPL's scale for how developed a mission concept is.
+Mission engineering and software|Reference|Open||Mission Design Lab|https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/|How NASA Goddard runs rapid mission concept studies.
+Mission engineering and software|Viewer|Open||NASA Mission Viz|https://nasa.github.io/mission-viz/|Web tool for exploring mission concepts and their architectures.
+Mission engineering and software|Learning|Open||CubeSat 101|https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf|NASA's guide for first-time CubeSat builders, from concept to launch.
+
+# ---------- Missions and history ----------
+Missions and history|Archive|Open||NASA Space Science Data Coordinated Archive|https://nssdc.gsfc.nasa.gov/|Master catalogue of every spacecraft and experiment, with dates and locations.
+Missions and history|Mission page|Open||Surveyor landers|https://science.nasa.gov/mission/surveyor-3/|The 1960s robotic landers that proved a soft Moon landing was possible.
+Missions and history|Mission page|Open||Viking 1 and 2|https://science.nasa.gov/mission/viking-1/|The first US landers to operate on Mars, in 1976.
+Missions and history|Mission page|Open||Mars Pathfinder and Sojourner|https://science.nasa.gov/mission/mars-pathfinder/|The first rover on Mars, 1997.
+Missions and history|Mission page|Open||Spirit and Opportunity|https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/|Twin Mars rovers that far outlived their planned missions.
+Missions and history|Mission page|Open||InSight|https://science.nasa.gov/mission/insight/|Mars lander that recorded marsquakes until its solar panels were buried in dust.
+Missions and history|Mission page|Open||Ingenuity helicopter|https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/|The first aircraft to fly on another planet.
+Missions and history|Mission page|Open||Pioneer 10 and 11|https://science.nasa.gov/mission/pioneer-10/|The first probes to cross the asteroid belt and fly past Jupiter and Saturn.
+Missions and history|Mission page|Open||Dawn|https://science.nasa.gov/mission/dawn/|Orbited and mapped both Vesta and Ceres.
+Missions and history|Mission page|Open||NEAR Shoemaker|https://science.nasa.gov/mission/near-shoemaker/|The first spacecraft to orbit and land on an asteroid.
+Missions and history|Mission page|Open||Kepler space telescope|https://science.nasa.gov/mission/kepler/|Found thousands of planets around other stars.
+
+# ---------- Media: ready-made Earth visualizations ----------
+Media, 3D and visualization|Media|Open||Earth Information Center visualizations|https://svs.gsfc.nasa.gov/gallery/earth-information-center/|Gallery of NASA's Earth dashboard visuals with downloadable frames.
+Media, 3D and visualization|Media|Open||Night lights change, 2012 to 2023|https://svs.gsfc.nasa.gov/5313/|Where city lights grew and faded over a decade.
+Media, 3D and visualization|Media|Open||Sea surface currents and temperature|https://svs.gsfc.nasa.gov/3912/|Animated ocean currents coloured by temperature.
+Media, 3D and visualization|Media|Open||Global aerosols|https://svs.gsfc.nasa.gov/5669/|Smoke, dust and sea salt moving through the atmosphere.
+Media, 3D and visualization|Media|Open||Air quality model runs|https://svs.gsfc.nasa.gov/5533/|High-resolution frames of modelled air pollution.
+Media, 3D and visualization|Media|Open||Perpetual Ocean 2|https://svs.gsfc.nasa.gov/5425/|Flow maps of the major ocean boundary currents.
+Media, 3D and visualization|Media|Open||Global carbon dioxide|https://svs.gsfc.nasa.gov/5196/|Carbon dioxide swirling through the atmosphere over a year.
+Media, 3D and visualization|Media|Open||Lightning seen from the space station|https://svs.gsfc.nasa.gov/5011/|Six years of lightning flashes mapped from orbit.
+Media, 3D and visualization|Media|Open||Atmospheric river in 3D|https://svs.gsfc.nasa.gov/4960/|A 3D model view following one atmospheric river.
+Media, 3D and visualization|Media|Open||Forest height from GEDI|https://svs.gsfc.nasa.gov/4950/|Global map of tree canopy height.
+Media, 3D and visualization|Media|Open||Data sonification example|https://svs.gsfc.nasa.gov/13786/|How NASA turns an astronomical image into sound.
+
+# ---------- Learning ----------
+Learning|Learning|Open||CSA digital games and activities|https://www.asc-csa.gc.ca/eng/youth-educators/digital-games-and-activities.asp|Canadian Space Agency games, e-books and hands-on activities.
+Learning|Learning|Open||CSA resources for STEM and youth groups|https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp|Free bilingual activities for educators and youth leaders.
+Learning|Learning|Open||Food production on the Moon toolkit|https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/|Classroom material on growing food in space and remote places.
+Learning|Learning|Open||Build a space telescope game|https://science.nasa.gov/mission/webb/game-build-it-yourself/|Design a telescope under real trade-offs; a model for educational mission games.

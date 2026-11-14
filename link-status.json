@@ -1,0 +1,1042 @@
+{
+ "http://proj4js.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "http://www-mars.lmd.jussieu.fr/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://aframe.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://aladin.cds.unistra.fr/AladinLite/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://api.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://appeears.earthdatacloud.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://archive.stsci.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://asf.alaska.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://astrogeology.usgs.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://astroquery.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://browser.dataspace.copernicus.eu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://brycetech.com/reports": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://caltech-ipac.github.io/irsa-tutorials/spherex/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ccmc.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ccmc.gsfc.nasa.gov/tools/DONKI/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cdaweb.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cds.climate.copernicus.eu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://celestrak.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cesium.com/platform/cesiumjs/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://climexp.knmi.nl/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cneos.jpl.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://code.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cogeo.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://commercialisation.esa.int/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://creativedestructionlab.com/streams/space/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://cwfis.cfs.nrcan.gc.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://d3js.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://darts.isas.jaxa.jp/planet/pdap/selene/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://data.asc-csa.gc.ca/dataset/neossat": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://data.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://dataspace.copernicus.eu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://deck.gl/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://developmentseed.org/titiler/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://disc.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://docs.xarray.dev/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://donnees-data.asc-csa.gc.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://earth-search.aws.element84.com/v1": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://earthaccess.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://earthengine.google.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://earthexplorer.usgs.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://eccc-msc.github.io/open-data/msc-geomet/readme_en/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ecostress.jpl.nasa.gov/data": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://eonet.gsfc.nasa.gov/docs/v3": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://exoplanetarchive.ipac.caltech.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://eyes.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://firms.modaps.eosdis.nasa.gov/api/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://fprime.jpl.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gaez.fao.org": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gdal.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gea.esac.esa.int/archive/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gedi.umd.edu/data": {
+  "checked": "2026-11-14",
+  "code": "301"
+ },
+ "https://geo.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://geopandas.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://giovanni.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/asc-csa": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/asc-csa/NEOSSAT_Tutorial": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/cosinekitty/astronomy": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/nasa": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/nasa/cFS": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://github.com/shashwatak/satellite-js": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gpm.nasa.gov/data": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://gportal.jaxa.jp/gpr/index/index": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://heasarc.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://helioviewer.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://huggingface.co/ibm-nasa-geospatial": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://images.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://irsa.ipac.caltech.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://irsa.ipac.caltech.edu/Missions/spherex.html": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://jmars.asu.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://leafletjs.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://leafmap.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://libre.space/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://llis.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://lpdaac.usgs.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://maplibre.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://mars.nasa.gov/mars2020/multimedia/raw-images/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://murray-lab.caltech.edu/CTX/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://naif.jpl.nasa.gov/naif/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://naip-usdaonline.hub.arcgis.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nasa-gibs.github.io/gibs-api-docs/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nasa.github.io/mission-viz/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nasa.github.io/openmct/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nassgeodata.gmu.edu/CropScape/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nisar-docs.asf.alaska.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nisar.jpl.nasa.gov/applications/arcgis-storymaps/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nisar.jpl.nasa.gov/applications/societal-benefit/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nlsp.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nsidc.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://nssdc.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ntrs.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://open-meteo.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://open.canada.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://openc3.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://openetdata.org": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://openlayers.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://opensciencedata.esa.int/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://opentopography.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://orbitaldebris.jsc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://osdr.nasa.gov/bio/repo/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://payloadspace.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds-atmospheres.nmsu.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds-geosciences.wustl.edu/missions/lro/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds-geosciences.wustl.edu/missions/lro/lola.htm": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds-imaging.jpl.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pds.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pgda.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://planet4589.org/space/gcat/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://planetarycomputer.microsoft.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://podaac.jpl.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://power.larc.nasa.gov/docs/services/api/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://prism.oregonstate.edu": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://psa.esa.int/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://psi.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://public.ccsds.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pypi.org/project/sgp4/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://pystac-client.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://qgis.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://quickmap.lroc.asu.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://quickstats.nass.usda.gov": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://rasterio.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://rhodesmill.org/skyfield/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://satnogs.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://sbir.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/3d-resources/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/dawn/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/insight/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/kepler/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/mars-pathfinder/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/near-shoemaker/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/pioneer-10/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/surveyor-3/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/viking-1/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://science.nasa.gov/mission/webb/game-build-it-yourself/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://sciencediscoveryengine.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://sdo.gsfc.nasa.gov/data/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://search.asf.alaska.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://search.earthdata.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://services.swpc.noaa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://simbad.cds.unistra.fr/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://sky.esa.int/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://skyview.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://skywatch.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://software.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://software.nasa.gov/software/GSC-19468-1": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://source.coop/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://space-canada.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://space.oscar.wmo.int/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://space.skyrocket.de/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://spacenews.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://spaceq.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://spiceypy.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://spinoff.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ssd-api.jpl.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ssd-api.jpl.nasa.gov/doc/horizons.html": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ssd.jpl.nasa.gov/horizons/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://stacindex.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://stacspec.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://standards.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://sunpy.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/13786/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/3912/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/4720/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/4851/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/4950/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/4960/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5011/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5196/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5313/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5425/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5533/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/5669/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://svs.gsfc.nasa.gov/gallery/earth-information-center/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://technology.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://thespacedevs.com/llapi": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://threejs.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://tonejs.github.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://torchgeo.readthedocs.io/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://trajbrowser.arc.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://trek.nasa.gov/mars/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://trek.nasa.gov/moon/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://ui.adsabs.harvard.edu/": {
+  "checked": "2026-11-14",
+  "code": "202"
+ },
+ "https://umbra.space/open-data/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://urs.earthdata.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://visibleearth.nasa.gov/collection/1484/blue-marble": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://visualization.osdr.nasa.gov/radlab/gui/data-api/": {
+  "checked": "2026-11-14",
+  "code": "500"
+ },
+ "https://waterdata.usgs.gov/nwis": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://webbtelescope.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://websoilsurvey.nrcs.usda.gov/app/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://worldview.earthdata.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/funding-programs/funding-opportunities/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/funding-programs/programs/smartearth/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/funding-programs/programs/stdp/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/youth-educators/digital-games-and-activities.asp": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.astropy.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.cocorahs.org/Maps": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/data/instruments/srtm": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/data/tools/firms": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.ecmwf.int/en/forecasts/datasets/open-data": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.eodms-sgdot.nrcan-rncan.gc.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.eoportal.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.esa.int/ESA_Multimedia/Images": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.factoriesinspace.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.keeptrack.space/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.landfire.gov": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.lpi.usra.edu/": {
+  "checked": "2026-11-14",
+  "code": "403"
+ },
+ "https://www.lroc.asu.edu/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.maxar.com/open-data": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.minorplanetcenter.net/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nal.usda.gov/services/agdatacommons": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/hrp/hazards/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/hrp/ongoing-hrp-research/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/hrp/risks/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/nasa-brand-center/images-and-media/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/reference/systems-engineering-handbook/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/smallsat-institute/sst-soa/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/spot-the-station/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.naturalearthdata.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.ncei.noaa.gov/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.ncei.noaa.gov/cdo-web/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.newspace.im/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.openstreetmap.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.orekit.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.solarsystemscope.com/textures/": {
+  "checked": "2026-11-14",
+  "code": "000"
+ },
+ "https://www.space-track.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.spacecapital.com/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.spaceweather.gc.ca/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.swpc.noaa.gov/products-and-data": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.tpsgc-pwgsc.gc.ca/pmc-cgp/index-eng.html": {
+  "checked": "2026-11-14",
+  "code": "302"
+ },
+ "https://www.uahirise.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.unoosa.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.usgs.gov/centers/eros/science/national-land-cover-database": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www.zooniverse.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://wyvern.space/open-data/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ },
+ "https://yamcs.org/": {
+  "checked": "2026-11-14",
+  "code": "200"
+ }
+}

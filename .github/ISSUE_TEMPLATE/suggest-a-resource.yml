@@ -1,0 +1,41 @@
+name: Suggest a resource
+description: Propose a data source, tool or reference for the list
+title: "Add: "
+labels: ["resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Section it belongs in
+      placeholder: Earth observation, Moon, Mars, Orbits and satellites ...
+    validations:
+      required: true
+  - type: input
+    id: access
+    attributes:
+      label: Access
+      placeholder: Open, Free key, Free account, Free tier, Paid
+  - type: textarea
+    id: description
+    attributes:
+      label: What can someone do with it? (one line)
+    validations:
+      required: true
+  - type: checkboxes
+    id: affiliation
+    attributes:
+      label: Affiliation
+      options:
+        - label: This is my own project or my employer's
