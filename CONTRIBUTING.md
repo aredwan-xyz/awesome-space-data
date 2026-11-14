@@ -51,6 +51,12 @@ no public access, and anything you are promoting without saying so.
 
 If you are adding your own project or company, say so in the pull request.
 
+## Maintainers: refreshing link status
+
+Run `python3 build.py` on a normal internet connection and commit the result. Do not
+commit link results produced on GitHub's servers: several government sites block them,
+which makes working links look dead.
+
 ## Report a dead link
 
 Open an issue with the resource name and, if you can find it, the new address.

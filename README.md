@@ -27,8 +27,9 @@
 Most space-data lists are long, stale and written for people who already know the field.
 This one is built to be used:
 
-- **Every link is checked.** A script requests every link each month and flags the ones
-  that stop responding (⚠️). The date of the last check is in the badges above.
+- **Every link is checked.** A script requests every link and flags the ones that do not
+  respond (⚠️). The date of the last full check is in the badges above, and a monthly
+  automated job opens an issue when a link disappears.
 - **Plain descriptions.** One line each, saying what you can do with it.
 - **Access is stated.** Each entry says whether it is open, needs a free key or account,
   or costs money.

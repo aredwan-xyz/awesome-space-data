@@ -1,17 +1,20 @@
 name: Link check
 
+# Monthly watch for links that have disappeared.
+#
+# Several government sites block requests from GitHub's servers, so a run here sees
+# timeouts and refusals that do not happen from a normal connection. This job therefore
+# never commits results. It only opens an issue for links that answer "not found"
+# (404 or 410), which is reliable from anywhere. The link status committed to the repo
+# comes from running `python3 build.py` on a normal connection.
+
 on:
   schedule:
     - cron: "0 12 1 * *"   # 12:00 UTC on the 1st of each month
   workflow_dispatch:
-    inputs:
-      commit:
-        description: "Commit the refreshed link results"
-        type: boolean
-        default: false
 
 permissions:
-  contents: write
+  contents: read
   issues: write
 
 jobs:
@@ -20,30 +23,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Rebuild and check every link
-        run: python3 build.py --report link-report.md | tee build-output.txt
+      - name: Check every link
+        run: python3 build.py | tee build-output.txt
+
+      - name: List links that are gone
+        run: |
+          python3 - <<'PY'
+          import json
+          rows = json.load(open("resources.json"))["resources"]
+          gone = [r for r in rows if r["http_status"] in ("404", "410")]
+          with open("gone.md", "w") as f:
+              if gone:
+                  f.write("These links answered \"not found\" in the monthly check.\n\n| Resource | Status | Link |\n|---|---|---|\n")
+                  for r in gone:
+                      f.write(f"| {r['name']} | {r['http_status']} | {r['url']} |\n")
+          print(f"{len(gone)} links gone")
+          PY
 
       - name: Summary
         run: |
-          cat link-report.md >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-          cat build-output.txt >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo "Results from GitHub's servers. Timeouts and refusals here are often blocks, not dead links."
+            echo '```'
+            cat build-output.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit refreshed results
-        if: github.event_name == 'schedule' || inputs.commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md resources.json resources.csv index.html link-status.json
-          git diff --cached --quiet || git commit -m "Monthly link check"
-          git push
-
-      - name: Open an issue if links stopped responding
-        if: github.event_name == 'schedule' || inputs.commit
+      - name: Open an issue for links that are gone
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if grep -q '^| Resource' link-report.md; then
-            gh issue create --title "Link check $(date +%Y-%m-%d): links not responding" --body-file link-report.md
+          if [ -s gone.md ]; then
+            gh issue create --title "Links not found, $(date +%Y-%m-%d)" --body-file gone.md
           fi
